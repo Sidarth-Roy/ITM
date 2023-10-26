@@ -193,7 +193,7 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="Description" class "control-label"></label>
-                    <input asp-for="Description" class="form-control" />
+                    <input asp-for="Description" class="form-control" required/>
                 </div>
                 <div class="form-group">
                     <div class="checkbox">
@@ -226,7 +226,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
+<div class="modal-body">
                 <form id="editCategoryForm" method="post" asp-action="Edit">
                     <div class="form-group">
                         <label asp-for="DeviceName" class="control-label"></label>
