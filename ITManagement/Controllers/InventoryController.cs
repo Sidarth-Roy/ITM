@@ -44,7 +44,6 @@ namespace ITManagement.Controllers
                 Device = devices
                     .Select(d => new Devices
                     {
-                        Id = d.Id,
                         DeviceId = d.DeviceId,
                         DeviceName = d.DeviceName,
                         CategoryId = d.CategoryId,

@@ -182,12 +182,12 @@ WriteAttributeValue("", 2059, item.CategoryId, 2059, 16, false);
             WriteLiteral(">\r\n                                        <i class=\"fa fa-pencil btn-icon\"></i> Edit\r\n                                    </button>\r\n                                    ");
             EndContext();
             BeginContext(2248, 531, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0785cdb4424b4fad93bbf8d2f4ba1600", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e3dde8dc04f427bb891911e33c997c2", async() => {
                 BeginContext(2357, 42, true);
                 WriteLiteral("\r\n                                        ");
                 EndContext();
                 BeginContext(2399, 115, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "068884098a1f4af3b810865c4887d085", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "cb1c99c768e846b4a0e89ea04068bf11", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -288,12 +288,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     ");
             EndContext();
             BeginContext(3858, 385, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c072a8b09e2487a9b9a9750bdb74ed8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2879c7675a9a4c5ba7d45d2dccfcfe66", async() => {
                 BeginContext(3906, 80, true);
                 WriteLiteral("\r\n                        <div class=\"form-group\">\r\n                            ");
                 EndContext();
                 BeginContext(3986, 73, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40bf325b543c4a4ca4e53d789635fa3b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ba1dbf1c6a84482da44ed9b073e7993a", async() => {
                     BeginContext(4038, 13, true);
                     WriteLiteral("Category Name");
                     EndContext();
@@ -320,7 +320,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                            ");
                 EndContext();
                 BeginContext(4089, 93, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "578dac556b4b488fbcd2350e7f4431f1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fd13c044eb934264a99c0ccf776cb19b", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -397,12 +397,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     ");
             EndContext();
             BeginContext(5574, 867, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c4fd566da3d47768814f6568d8934d0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcc17cd2ee744765869259d2a990318f", async() => {
                 BeginContext(5634, 26, true);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(5660, 78, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e4d06531e2f54c8e82e33c8b3715d320", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d77fc0c63ed943f988f2113369f0cdfa", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -430,7 +430,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                        <div class=\"form-group\">\r\n                            ");
                 EndContext();
                 BeginContext(5818, 73, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4dfb75e7c447417c9024c48c2c70ed7e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e7c1f18fff34bfaac3d728eaafe2d68", async() => {
                     BeginContext(5870, 13, true);
                     WriteLiteral("Category Name");
                     EndContext();
@@ -457,7 +457,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                            ");
                 EndContext();
                 BeginContext(5921, 116, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ef4050aa176c4477b39cd5e3c37f0909", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0c1631b2ad654f879d8d63524b763d5d", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

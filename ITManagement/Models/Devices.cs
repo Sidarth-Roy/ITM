@@ -5,7 +5,6 @@ namespace ITManagement.Models
 {
     public partial class Devices
     {
-        public int Id { get; set; }
         public int DeviceId { get; set; }
         public string DeviceName { get; set; }
         public int CategoryId { get; set; }

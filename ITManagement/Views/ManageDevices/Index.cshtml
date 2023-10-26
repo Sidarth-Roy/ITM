@@ -184,10 +184,6 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label asp-for="DeviceId" class="control-label">Devicecode</label>
-                    <input asp-for="DeviceId" asp-items="ViewBag.DeviceId" class="form-control" required></input>
-                </div>
-                <div class="form-group">
                     <label asp-for="DeviceName" class="control-label"></label>
                     <input asp-for="DeviceName" class="form-control" required />
                 </div>
@@ -242,7 +238,7 @@
                     </div>
                     <input type="hidden" id="DIdd" name="DeviceId" asp-for="DeviceId" class="form-control" />
                     <label asp-for="Description" class="control-label"></label>
-                    <input type="text" asp-for="Description" class="form-control" id="editdesc" name="Description" />
+                    <input type="text" asp-for="Description" class="form-control" id="editdesc" name="Description" required/>
                     <div class="form-group">
                         <div class="checkbox">
                             <label>
@@ -293,4 +289,17 @@
 
         $('#editCategoryModal').modal('show');
     }
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var statusCheckbox = document.getElementById('statusCheckbox');
+        var userIdSelect = document.getElementById('userIdSelect');
+
+        statusCheckbox.addEventListener('change', function () {
+            userIdSelect.disabled = !statusCheckbox.checked;
+        });
+
+        // Set initial state
+        userIdSelect.disabled = !statusCheckbox.checked;
+    });
 </script>

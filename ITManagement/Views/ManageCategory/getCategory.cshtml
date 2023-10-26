@@ -84,7 +84,7 @@
         }
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form method="post" asp-action="CreateCategory" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -92,22 +92,18 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <h2 class="modal-title" id="exampleModalLabel">Add Category</h2>
+
                 </div>
                 <div class="modal-body">
-                    <form method="post" asp-action="CreateCategory">
-                        <div class="form-group">
-                            <label asp-for="CategoryName" class="control-label">Category Name</label>
-                            <input asp-for="CategoryName" type="text" class="form-control" placeholder="Category Name" />
-                        </div>
-                    </form>
+                    <input asp-for="CategoryName" type="text" placeholder="Category Name" style="width:100%; padding:7px"/ >
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #BB3F3F; color: white">Close</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color:#BB3F3F; color:white">Close</button>
                     <button type="submit" class="btn btn-primary">Add</button>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 
     <script>
         function openEditModal(categoryName, categoryId) {

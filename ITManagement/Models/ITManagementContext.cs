@@ -51,7 +51,7 @@ namespace ITManagement.Models
 
                 entity.Property(e => e.DeviceId)
                     .HasColumnName("DeviceID")
-                    .ValueGeneratedNever();
+                    .ValueGeneratedOnAdd();
 
                 entity.Property(e => e.AllotedDate).HasColumnType("datetime");
 
@@ -71,9 +71,6 @@ namespace ITManagement.Models
                     .IsRequired()
                     .HasMaxLength(255);
 
-                entity.Property(e => e.Id)
-                    .HasColumnName("ID")
-                    .ValueGeneratedOnAdd();
 
                 entity.Property(e => e.UpdatedAt).HasColumnType("datetime");
 

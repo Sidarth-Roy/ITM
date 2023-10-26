@@ -52,7 +52,7 @@ namespace ITManagement.Controllers
 
         [HttpPost]
 
-        public IActionResult Create([Bind("Id,DeviceId,DeviceName,CategoryId,Description,Status,UserId,AllotedDate,CreatedBy,CreatedAt,UpdatedAt,UpdatedBy")] Devices devices)
+        public IActionResult Create([Bind("DeviceName,CategoryId,Description,Status,UserId,AllotedDate,CreatedBy,CreatedAt,UpdatedAt,UpdatedBy")] Devices devices)
         {
             if (ModelState.IsValid)
             {
